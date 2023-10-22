@@ -1,0 +1,30 @@
+Acknowledgements:
+
+
+Youtuber spaderdabomb for his tutorial series on making an open world in unity https://www.youtube.com/watch?v=nCDGjLRecrs&list=PLYvjPIZvaz-pBS9j8u9Ol0ixAid0-Bq_t&pp=iAQB
+
+
+Modular First Person Controller Asset: https://assetstore.unity.com/packages/3d/characters/modular-first-person-controller-189884
+
+Low poly Environment: https://assetstore.unity.com/packages/3d/environments/lowpoly-environment-nature-free-medieval-fantasy-series-187052
+
+Fantasy Skybox: https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
+
+Handpainted Grass & Ground textures: https://assetstore.unity.com/packages/2d/textures-materials/nature/handpainted-grass-ground-textures-187634
+
+Aquas lite Built in render pipeline (for water) : https://assetstore.unity.com/packages/vfx/shaders/aquas-lite-built-in-render-pipeline-53519
+
+Kawaii Slimes: https://assetstore.unity.com/packages/3d/characters/creatures/kawaii-slimes-221172
+
+Rpg Tiny Hero DUO: https://assetstore.unity.com/packages/3d/characters/humanoids/rpg-tiny-hero-duo-pbr-polyart-225148
+
+RPG Poly Pack LITE: https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410
+
+Low Poly SImple Nature Pack: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
+
+Group members:
+
+Zachary Dort 200525761
+Marie- Eve Bouchard 200536258
+Jesse McCormack - 200570287
+Charlie Sirois-Morin 200533963
