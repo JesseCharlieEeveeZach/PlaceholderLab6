@@ -1,7 +1,8 @@
 Acknowledgements:
 
 
-Youtuber spaderdabomb for his tutorial series on making an open world in unity https://www.youtube.com/watch?v=nCDGjLRecrs&list=PLYvjPIZvaz-pBS9j8u9Ol0ixAid0-Bq_t&pp=iAQB
+Youtuber spaderdabomb for his tutorial series on making an open world in unity 
+https://www.youtube.com/watch?v=nCDGjLRecrs&list=PLYvjPIZvaz-pBS9j8u9Ol0ixAid0-Bq_t&pp=iAQB
 
 
 Modular First Person Controller Asset: https://assetstore.unity.com/packages/3d/characters/modular-first-person-controller-189884
@@ -21,6 +22,9 @@ Rpg Tiny Hero DUO: https://assetstore.unity.com/packages/3d/characters/humanoids
 RPG Poly Pack LITE: https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410
 
 Low Poly SImple Nature Pack: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
+
+
+
 
 Group members:
 
