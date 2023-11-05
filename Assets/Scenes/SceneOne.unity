@@ -1062,6 +1062,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d0a30d6aed6fc4c8ca473413f70c24, type: 3}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &531047396 stripped
 GameObject:
@@ -1225,6 +1226,8 @@ BoxCollider:
   m_Center: {x: 0, y: 1.2100358, z: 0}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 3566002a (added priest)
 --- !u!1 &534587568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864851310106424, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -2429,6 +2432,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd87e5026d1695148aabe96121c526ef, type: 3}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1001 &1203567483
 PrefabInstance:
@@ -2531,6 +2535,8 @@ Transform:
   m_Father: {fileID: 2024453582}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 3566002a (added priest)
 --- !u!4 &1235019870 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
@@ -3670,8 +3676,7 @@ Transform:
   m_LocalPosition: {x: 109, y: 24.2, z: 839.1}
   m_LocalScale: {x: 209.61, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 531047398}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1734511299
