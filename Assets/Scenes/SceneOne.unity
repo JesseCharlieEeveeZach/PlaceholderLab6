@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37788624, g: 0.68748975, b: 0.8765244, a: 1}
+  m_IndirectSpecularColor: {r: 0.37788555, g: 0.6874883, b: 0.87652326, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4586,7 +4586,7 @@ GameObject:
   - component: {fileID: 946276616}
   - component: {fileID: 946276615}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Abishag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
