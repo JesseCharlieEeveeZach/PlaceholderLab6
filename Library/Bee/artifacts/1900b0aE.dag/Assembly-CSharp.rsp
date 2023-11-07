@@ -368,6 +368,7 @@
 "Assets/Planet Earth Free/SpinFree.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
+"Assets/Scripts/ChangeTextToName.cs"
 "Assets/Scripts/RemoveUnderwaterTrees.cs"
 "Assets/Scripts/RemoveUnderwaterTreesEditor.cs"
 "Assets/Scripts/TownTriggers.cs"
