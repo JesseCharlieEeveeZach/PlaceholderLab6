@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class ChangeTextToName : MonoBehaviour
+public class ChangeParentName : MonoBehaviour
 {
     private TextMeshPro textMeshPro; // Reference to the TextMeshPro component
     private Transform playerTransform;

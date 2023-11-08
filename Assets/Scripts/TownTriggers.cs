@@ -27,32 +27,32 @@ public class TownTriggers : MonoBehaviour
         if (other.CompareTag("TheHub"))
         {
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
-            townName.text = "The Hub";
+            townName.text = "The Hub - Jesse McCormack";
             canvasVisibility.SetActive(true);
         }
         if (other.CompareTag("Trafficka"))
         {
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
-            townName.text = "Trafficka Cult Area";
+            townName.text = "Trafficka Cult Area - Charlie Sirois-Morin";
             canvasVisibility.SetActive(true);
         }
         if (other.CompareTag("totem"))
         {
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
-            townName.text = "....Totem....";
+            townName.text = "....Totem.... - Charlie Sirois-Morin";
             canvasVisibility.SetActive(true);
         }
         if (other.CompareTag("ZakkariaVille"))
         {
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
-            townName.text = "ZakkariaVille";
+            townName.text = "Sovlow City - Zach Dort";
             canvasVisibility.SetActive(true);
             StartCoroutine(HideCanvasAfterDelay(3.0f));
         }
         if (other.CompareTag("Eevee"))
         {
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
-            townName.text = "Eeveeville";
+            townName.text = "Eeveeville - By Marie Eve Bouchard";
             canvasVisibility.SetActive(true);
             StartCoroutine(HideCanvasAfterDelay(3.0f));
         }
