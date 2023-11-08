@@ -29,18 +29,21 @@ public class TownTriggers : MonoBehaviour
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
             townName.text = "The Hub - Jesse McCormack";
             canvasVisibility.SetActive(true);
+            StartCoroutine(HideCanvasAfterDelay(3.0f));
         }
         if (other.CompareTag("Trafficka"))
         {
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
             townName.text = "Trafficka Cult Area - Charlie Sirois-Morin";
             canvasVisibility.SetActive(true);
+            StartCoroutine(HideCanvasAfterDelay(3.0f));
         }
         if (other.CompareTag("totem"))
         {
             Debug.Log(gameObject.name + " is triggered by " + other.gameObject.name);
             townName.text = "....Totem.... - Charlie Sirois-Morin";
             canvasVisibility.SetActive(true);
+            StartCoroutine(HideCanvasAfterDelay(3.0f));
         }
         if (other.CompareTag("ZakkariaVille"))
         {
