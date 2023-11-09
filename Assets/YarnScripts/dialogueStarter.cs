@@ -25,9 +25,9 @@ public class dialogueStarter : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player") && !conversationStarted)
+        if (other.CompareTag("Player") && !conversationStarted && Input.GetKeyDown(KeyCode.E))
         {
             
             player.GetComponent<FirstPersonController>().playerCanMove = false;
