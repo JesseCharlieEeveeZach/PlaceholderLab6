@@ -1,0 +1,10 @@
+﻿title: Thork
+tags:
+---
+Thork: Hello! I'm Thork.
+Thork: This helmet makes me look more intimidating, don't you think?
+->Yes
+    Thork: Thanks! I mean... grr!!
+->Not really
+    Thork: Yeesh... why even come to town if you're just going to be rude....
+===
