@@ -75,3 +75,36 @@ crashlytics-build.properties
 
 !/[Aa]ssets/*.obj
 !/[Aa]ssets/*.mtl
+
+# Yarn Spinner generated files
+YarnSpinner/Compiled/
+
+# Yarn Spinner logs and temporary files
+YarnSpinner/Logs/
+
+!/[Aa]ssets/**/*.meta
+
+
+# TextMesh Pro files
+[Aa]ssets/TextMesh*Pro/
+
+
+
+*/bin/*
+*/obj/*
+
+Unity/Assets/YarnSpinner/Scripts/DLLs/*.dll*
+Unity/Assets/YarnSpinner/Scripts/DLLs/*.pdb*
+
+.antlr
+
+Unity/Logs
+
+export.log
+
+
+# Auto-generated API documentation metadata
+/_api/
+
+# Test coverage data
+YarnSpinner.Tests/coverage/
