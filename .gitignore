@@ -81,6 +81,6 @@ YarnSpinner/Logs/
 /[Aa]ssets/TextMeshPro/
 
 # Ignore all .meta files except those in the Assets folder
-*.meta
-!/[Aa]ssets/*.meta
+# Allow all .meta files
+!**/*.meta
 
