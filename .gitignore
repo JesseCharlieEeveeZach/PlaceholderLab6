@@ -79,3 +79,8 @@ YarnSpinner/Logs/
 
 # TextMeshPro
 /[Aa]ssets/TextMeshPro/
+
+# Ignore all .meta files except those in the Assets folder
+*.meta
+!/[Aa]ssets/*.meta
+
