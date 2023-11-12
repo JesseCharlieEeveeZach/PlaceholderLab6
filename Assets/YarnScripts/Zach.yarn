@@ -1,5 +1,116 @@
 ﻿title: Zach
-tags:
 ---
+===
+title: Hank
+---
+Hank: Howdy, Traveller! Welcome to Sovlow City where we live in fear from slimes and drink olive oil! What can I do ya for?
 
+	->Player: What do you mean "drink olive oil"? 
+		<<jump Olive>>
+	->Player: Uhm... what? Goodbye.
+		<<jump Done>>
+===
+title: Olive
+---
+Hank: Well we drink olive oil because it makes our bodies extremely difficult for the slimes to digest.
+Hank: A slime may or may not have put a curse on the village as well. You know, since drinking straight oil is terrible for you.
+
+	->Player: Whatever floats your boat man. Can you tell me anything about the town?
+	Hank: Yeah sure!
+		<<jump hanktowninfo>>
+	->Player: Ah, gotcha... I think I'll leave you alone now...
+	Hank: Yeah that's probably for the best.
+		<<jump Done>>
+===
+title: hanktowninfo
+---
+Hank: So what about the town do you wanna learn? I don't know everything but i'll try to fill you in!
+Hank: I have some info on the slimes, olive oil, and some townfolk.
+
+	->Player: I would like to learn about the slimes.
+		<<jump SlimyLaddies>>
+	->Player: Olive oil? Tell me more.
+		<<jump infooliveoil>>
+	->Player: How about the townsfolk?
+		<<jump Townspeoplefolk>>
+===
+title: SlimyLaddies
+---
+Hank: The slimes are a malicious species of creature!
+Hank: They hate fire or strong heat sources, and like I said before, drinking olive oil makes it hard for them to digest humans.
+Hank: For some reason, slimes are rather good at child trafficking. That's what i've heard at least.
+
+	->Player: I will try to do with that info as well as I can...Thanks.
+		<<jump Done>>
+===
+title: infooliveoil
+---
+Hank: Olive oil makes some of the nutrients in our body extremely difficult for the slimes to digest for whatever reason.
+Hank: So everyone in the community has come together to make the best olive oil around!
+Hank: Although there is someone who's somehow making alcoholic versions... I suspect Frank.
+
+	->Player: Alcoholic Olive Oil sounds like it'd be great in cooking, thanks for the info!
+		<<jump Done>>
+===
+title: Townspeoplefolk
+---
+Hank: Not counting myself, there's three others; Frank, Tim, and Jim.
+Hank: Frank is the local alcoholic, if he threatens to call the "feds" on you, just ignore, nobody knows what he means by "feds".
+Hank: Jim... Well Jim isn't spoken to by many... he's regarded as the creepy one here. 
+Hank: Jim also made up some weird game called "Dime Sliming" Or something. He's truly disturbed.
+Hank: Finally, Tim, well he's just homeless. That's all he's really got going for him. 
+Hank: I guess his family got taken by slimes too?
+
+	->Player: Oh... Delightful... this place sounds like a bundle of joy...
+		<<jump Done>>
+===
+title: Frank
+---
+Frank: Oye, buzz off i'm trying to day drink here! Don't make me get the feds involved!
+
+	->Player: Ok geez, I'll leave you alone you drunk heathen!
+		<<jump Done>>
+===
+title: Jim
+---
+Jim: Hey, bud, c'mere, how about a deal eh?
+
+	->Player: What kind of deal?
+	Jim: I was gonna get to that don't cut me off!
+		<<jump jimQuest>>
+	->Player: No thanks, Goodbye.
+	Jim: Coward.
+		<<jump Done>>
+===
+title: jimQuest
+---
+Jim: So the deal involves you doing this thing called "Dime Sliming".
+Jim: If you Happen to succeed, I shall reward you handsomely with my finest bottle of 420 proof alcoholic extra virgin olive oil!
+Jim: So, you in?
+
+	->Player: What do you mean "Dime Sliming"?
+		<<jump DimeSlime>>
+	->Player: Ew, no. Goodbye.
+		<<jump Done>>
+===
+title: DimeSlime
+---
+Jim: It involves you flicking a dime into a slimes gelatinous body, If you get 7 dimes or more without it noticing, you win!
+
+	->Player: That sounds...Interesting... I'm in.
+		<<jump Done>>
+	->Player: You sound like a lunatic. Count me out.
+		<<jump Done>>
+===
+title: Tim
+---
+Tim: Please spare some clothes... anything at all! I'm lonely and the slimes took my kids!
+
+	->Player: I don't got anything to spare ya. Good luck with that though.
+		<<jump Done>>
+	->Player: Ah geez don't scare me like that! Get away from me!
+		<<jump Done>>
+===
+title: Done
+---
 ===
