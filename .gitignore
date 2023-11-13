@@ -84,3 +84,4 @@ YarnSpinner/Logs/
 # Allow all .meta files
 !**/*.meta
 
+Library/ArtifactDB
