@@ -3,6 +3,7 @@
 ===
 title: Hank
 ---
+Conversation by Zach Dort
 Hank: Howdy, Traveller! Welcome to Sovlow City where we live in fear from slimes and drink olive oil! What can I do ya for?
 ->Player: What do you mean "drink olive oil"? 
 	<<jump Olive>>
@@ -11,6 +12,7 @@ Hank: Howdy, Traveller! Welcome to Sovlow City where we live in fear from slimes
 ===
 title: Olive
 ---
+Conversation by Zach Dort
 Hank: Well we drink olive oil because it makes our bodies extremely difficult for the slimes to digest.
 Hank: A slime may or may not have put a curse on the village as well. You know, since drinking straight oil is terrible for you.
 ->Player: Whatever floats your boat man. Can you tell me anything about the town?
@@ -22,6 +24,7 @@ Hank: A slime may or may not have put a curse on the village as well. You know, 
 ===
 title: hanktowninfo
 ---
+Conversation by Zach Dort
 Hank: So what about the town do you wanna learn? I don't know everything but i'll try to fill you in!
 Hank: I have some info on the slimes, olive oil, and some townfolk.
 ->Player: I would like to learn about the slimes.
@@ -33,6 +36,7 @@ Hank: I have some info on the slimes, olive oil, and some townfolk.
 ===
 title: SlimyLaddies
 ---
+Conversation by Zach Dort
 Hank: The slimes are a malicious species of creature!
 Hank: They hate fire or strong heat sources, and like I said before, drinking olive oil makes it hard for them to digest humans.
 Hank: For some reason, slimes are rather good at capsule trafficking. That's what i've heard at least.
@@ -41,6 +45,7 @@ Hank: For some reason, slimes are rather good at capsule trafficking. That's wha
 ===
 title: infooliveoil
 ---
+Conversation by Zach Dort
 Hank: Olive oil makes some of the nutrients in our body extremely difficult for the slimes to digest for whatever reason.
 Hank: So everyone in the community has come together to make the best olive oil around!
 Hank: Although there is someone who's somehow making alcoholic versions... I suspect Frank.
@@ -49,6 +54,7 @@ Hank: Although there is someone who's somehow making alcoholic versions... I sus
 ===
 title: Townspeoplefolk
 ---
+Conversation by Zach Dort
 Hank: Not counting myself, there's three others; Frank, Tim, and Jim.
 Hank: Frank is the local alcoholic, if he threatens to call the "feds" on you, just ignore, nobody knows what he means by "feds".
 Hank: Jim... Well Jim isn't spoken to by many... he's regarded as the creepy one here. 
@@ -62,12 +68,14 @@ Hank: I guess his family got taken by slimes too?
 ===
 title: Frank
 ---
+Conversation by Zach Dort
 Frank: Oye, buzz off i'm trying to day drink here! Don't make me get the feds involved!
 ->Player: Ok geez, I'll leave you alone you drunk heathen!
 	<<jump Done>>
 ===
 title: Jim
 ---
+Conversation by Zach Dort
 Jim: Hey, bud, c'mere, how about a deal eh?
 ->Player: What kind of deal?
 	Jim: I was gonna get to that don't cut me off!
@@ -78,6 +86,7 @@ Jim: Hey, bud, c'mere, how about a deal eh?
 ===
 title: jimQuest
 ---
+Conversation by Zach Dort
 Jim: So the deal involves you doing this thing called "Dime Sliming".
 Jim: If you Happen to succeed, I shall reward you handsomely with my finest bottle of 420 proof alcoholic extra virgin olive oil!
 Jim: So, you in?
@@ -88,6 +97,7 @@ Jim: So, you in?
 ===
 title: DimeSlime
 ---
+Conversation by Zach Dort
 Jim: It involves you flicking a dime into a slimes gelatinous body, If you get 7 dimes or more without it noticing, you win!
 ->Player: That sounds...Interesting... I'm in.
 	<<jump Done>>
@@ -96,6 +106,7 @@ Jim: It involves you flicking a dime into a slimes gelatinous body, If you get 7
 ===
 title: Tim
 ---
+Conversation by Zach Dort
 Tim: Please spare some clothes... anything at all! I'm lonely and the slimes took my kids!
 ->Player: I don't got anything to spare ya. Good luck with that though.
 	<<jump Done>>
