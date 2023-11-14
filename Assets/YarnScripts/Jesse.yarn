@@ -1,6 +1,7 @@
 ﻿title: Thork
 tags:
 ---
+Conversation by Jesse McCormack
 Thork: Hello! I'm Thork.
 Thork: This helmet makes me look more intimidating, don't you think?
 ->Yes
@@ -10,6 +11,7 @@ Thork: This helmet makes me look more intimidating, don't you think?
 ===
 title: Aria
 ---
+Conversation by Jesse McCormack
 Aria: What do you want? I'm a bit busy here.
 ->Player: Busy with what?
     Aria: Well that doesn't entirely concern you, now does it?
@@ -26,6 +28,7 @@ Aria: What do you want? I'm a bit busy here.
 ===
 title: Aria_Explanation
 ---
+Conversation by Jesse McCormack
 Aria: Ok fine... Here's the gist.
 Aria: There seems to be a weird coincidence between these slimes and the missing Capsule People.
 Aria: Capsule People go missing, slimes keep getting richer.
@@ -55,6 +58,7 @@ Aria: And they call it "The Hub"... Odd.
 
 title: KingHambo
 ---
+Conversation by Jesse McCormack
 King Hambo: Greetings, youngling!
 ->Player: I'm not actually that young..
     King Hambo: My apologies.
@@ -74,6 +78,7 @@ King Hambo: Greetings, youngling!
 
 title: KingHambo_Proposition
 ---
+Conversation by Jesse McCormack
 King Hambo: should you be in need of... extra coin... I may be in a position to provide you some.
 King Hambo: In exchange for something... specific.
 ->Player: What is this specific thing you require?
@@ -102,6 +107,7 @@ King Hambo: In exchange for something... specific.
 
 title: Jimbo
 ---
+Conversation by Jesse McCormack
 Jimbo: I heard there was a capsule person who shares a similar name to mine.
 ->Player: This is true.
     Jimbo: Wow! I wonder what he's like!
@@ -124,6 +130,7 @@ Jimbo: I heard there was a capsule person who shares a similar name to mine.
 
 title: Zenith
 ---
+Conversation by Jesse McCormack
 Zenith: No. NO. Go away.
 Zenith:...
 Zenith: I am dead serious. Go talk to Aria.
