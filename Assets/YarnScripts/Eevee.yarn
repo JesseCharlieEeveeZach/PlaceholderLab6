@@ -1,5 +1,27 @@
-﻿title: Eevee
+﻿title: TheoPriesto
 tags:
 ---
-
+Theo Priesto: Welcome to this town of mine....
+->Player: Where are all the locals?
+    Theo Priesto:Let's just say I gave them a friendly welcome that went... 
+    Theo Priesto:Unappreciated.
+    ->Player:What do you mean by that?
+        Theo Priesto:It's probably best if you do not know.
+        ->Player: Well now I think I have to know...
+            Theo Priesto:It is not an easy tale.
+            Theo Priesto:These people did not appreciate my stories of wonder and fantasy...
+            Theo Priesto:So I simply removed them from the equation.
+            Player: And By removed you mean...
+            Theo Priesto: I mean I gripped their mortal coil and shattered it with my bare hands.
+            Player: Oh OK well I think I shall be leaving now...
+            Theo Priesto:I want you to know... that I would not have done this had they had listened.
+            <<jump Done>>
+        ->Player: Ok cool then, bye.
+            <<jump Done>>
+    ->Player: That wasn't nice of them.
+        Theo Priesto:very.. astute observation.
+        Theo Priesto:I think you and I could get along quite well. Feel free to stay a while...
+        Theo Priesto:At your own peril, of course.
+        Player: Very peculiar...
+        <<jump Done>> 
 ===

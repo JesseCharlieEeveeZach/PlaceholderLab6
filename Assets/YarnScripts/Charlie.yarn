@@ -1,5 +1,157 @@
-﻿title: Charlie
+﻿title: Horse
 tags:
 ---
+Neighh!!!! Hronk hronk HOOOO
+Player: What on earth....????
+===
+
+
+title: Hex
+---
+
+Hex: Help Us! Please! 
+->Player: What happened here? 
+    Hex: The slimes kidnapped us....
+    Hex: And then we thought we were saved by these people...
+    Hex: But We're still in this cage! For days, I think....
+    Jore: Without food!
+    Hex: Pipe down back there! I'm talking
+    ->Player:Ok Ok Ok relax.... I'll see what I can do!
+        Hex: Amazing! Please rescue us!
+        Hex: We believe in you!
+        Hex: You're our only hope!
+        <<jump Done>>
+->Player: I will just do nothing.
+    Hex: Oh god... Oh God... Please! Please!
+    ->Player: Hmmm... Maybe...
+        Hex: are you joking? What is wrong with you???
+        ->Player: More like, what isn't wrong with me- I mean... Bye.
+            <<jump Done>>
+        ->Player: Ok Fine, I'll help.
+            Hex: Yippee!
+            <<jump Done>>
+    ->Player: Absolutely not. Goodbye.
+        Hex: Whattttt-
+        <<jump Done>>
+===
+title: Jore
+---
+Jore: Are you here to rescue us?
+->Player: mmm... no
+    Jore: Ohh... I see... 
+    Jore: I'm so tired...
+    <<jump Done>>
+->Player: Yeah
+    Jore: Oh Thank god! You might have to convince those guys over there...
+    <<jump Done>>    
+
+===
+title: Doom
+---
+Doom: Let me guess.... You want a cut of the coin too...
+->Player: What do you mean?
+    Doom: I guess you're not...
+    Doom: well if you didn't know, we're being sold.
+    ->Player: I see. well, good luck with that.
+        Doom: Are you kiddi- oh whatever, just go away.
+        <<jump Done>>
+->Player: Yup! You got it!
+    Doom: Oh god damn it... 
+    Doom: Well I hope it's worth it for you. 
+    Doom: But maybe... reconsider? It's not like we aren't people over here...
+    <<jump Done>>
+
+===
+
+
+title: Abishag
+---
+Abishag: Howdy Partner.
+Abishag: We don't often get much visitors...
+Abishag: For a damn good reason. Get lost.
+->Player: I don't think I'll do that just yet.
+    Player: What's going on behind you?
+    Abishag: None of your business. Get lost, Kid.
+    <<jump Done>>
+->Player:  Sounds good. 
+    Abishag: Smartest thing I heard anyone around here say today.
+    <<jump Done>>
+===
+
+title: Gabriel
+---
+Gabriel: If you haven't talked to Abishag yet, I reckon you should.
+-> Player: Why can't I talk to you?
+    Gabriel: I aint one for much talking....
+    ->Player: You seem to be conversin just fine, I think.
+        Gabriel: Why thank you kindly.
+        Gabriel: You Know, you seem alright...
+        Gabriel: How would you like in on a little money scheme?
+        Gabriel: There's a little slime in The Hub that you should go talk to if you want in.
+        Gabriel: I heard he may be the.... Boss? Manager? I aint sure.
+        ->Player: Cool, Thanks for letting me know!
+            Gabriel: Of course Partner. Havea good one.
+            <<jump Done>>
+        ->Player: I will probably avoid that slime but have a nice one anyway.
+            Gabriel: I understand.
+            <<jump Done>>    
+    ->Player: Ok... I guess I'll be on my way.
+->Player: Ok sure, I'll try that
+    <<jump Done>>    
+
+
+===
+
+title: Eden
+---
+Eden: I'm not a fan of those guys, but hey, wwe can't like all of our coworkers...
+->Player: Coworkers? What do you guys do for work?
+    Eden: Ha. If I told you, I'd have to kill you. For real.
+    ->Player: I see.. But also, I suddenly have to leave.
+        Eden: Very Wise.
+        <<jump Done>>
+    ->Player: I might be ok with that...
+        Eden: Very brave of you..
+        Eden: I like your mettle. While I still can't tell you, I can give you a hint.
+        Eden: Why don't you go to the Hub, and talk to some of the slimes there?
+        ->Player: Why would I do that?
+            Eden: Just trust me on this. 
+            Player: Ok....
+            <<jump Done>>
+->Player: I have never heard something more true in my entire life.
+    Eden: Ha! You get it.
+    ->Player: Are they working hard or hardly working?
+        Eden: Don't push your luck kid... I can't talk about that.
+        ->Player: Oh I see...
+            Eden: Just move aalong for now. There's an interesting town down the road that you could visit...
+            <<jump Done>>
+        ->Player: Why Not?
+            Eden: Not everyone has the stomache for what we do.
+            Eden: It's better if you just move on. I won't speak further.
+            <<jump Done>>
+===
+
+title: Eve
+---
+Eve: Despite popular belief, there is no relation between me and Eeveeville.
+Eve:None.
+Eve: So Stop asking!
+->Player: I haven't asked a thing!
+    Eve: Oh.. I see.
+    Eve: In that case, bugger off. I'm bathing here.
+    ->Player: Would you like to talk about it?
+        Eve: Absolutely not. That priest did nothing. I wasn't there.
+        Eve: I didn't hide.
+        ->Player: Ok... I believe you I think...
+            Eve:Thanks. Now, get lost.
+            <<jump Done>>
+        ->Player: Are you sure?
+            Eve: Ok maybe I hid a lit- Hey Wait!
+            Eve: I don't know you nearly enough to talk about this.
+            Player: I guess I'll leave then
+            <<jump Done>>
+->Player: I think I'll be walking slowly away now, thank you.
+    Eve:Oh... Gone so soon... Ok Bye!
+        <<jump Done>>
 
 ===

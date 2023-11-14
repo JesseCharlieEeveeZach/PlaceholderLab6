@@ -35,7 +35,7 @@ title: SlimyLaddies
 ---
 Hank: The slimes are a malicious species of creature!
 Hank: They hate fire or strong heat sources, and like I said before, drinking olive oil makes it hard for them to digest humans.
-Hank: For some reason, slimes are rather good at child trafficking. That's what i've heard at least.
+Hank: For some reason, slimes are rather good at capsule trafficking. That's what i've heard at least.
 ->Player: I will try to do with that info as well as I can...Thanks.
 	<<jump Done>>
 ===
@@ -57,6 +57,8 @@ Hank: Finally, Tim, well he's just homeless. That's all he's really got going fo
 Hank: I guess his family got taken by slimes too?
 ->Player: Oh... Delightful... this place sounds like a bundle of joy...
 	<<jump Done>>
+->Player: Taken by slimes? what do you mean?
+	<<jump SlimyLaddies>>
 ===
 title: Frank
 ---

@@ -1,5 +1,76 @@
-﻿title: Charlie1
+﻿title: Raphael
 tags:
 ---
+Raphael: How do you, good lookin?
+->Player: I'm sorry, what?
+    Raphael: ah, get lost, you're lame.
+    <<jump Done>>
+->Player: Mighty fine and you, Handsome?
+    Raphael: Just dandy chap.
+    Raphael: Say, sit a spell and enjoy this lovely fire for a while/
+    ->Player: I can't. Can you tell me about the area?
+        Raphael: Can't say that I can. There's a town nearby, you best head there for more info.
+        <<jump Done>>
+    ->Player: Sounds lovely. 
+        Raphael: Say... you looking to play some weird games?
+        ->Player: Uhh... Sure?
+            Raphael: Rumor has it there's some folks in town looking for people to play some game...
+            Raphael: Seems to be a prize involved. You should look into it!
+            <<jump Done>>
+        ->Player: Not really
+            Raphael: Go be a stick in the mud elsewhere.
+            <<jump Done>>
 
+===
+
+
+title: Michael
+---
+Michael: Lovely campfire we're having.
+->Player: It is
+    Michael: Don't go ruining it now by sticking your nose where it don't belong.
+    <<jump Done>>
+->Player: I've seen better.
+    Michael: Hmph. You have, have you?
+    Michael: Then go there.
+    <<jump Done>>
+->Player: Sure. Hey, anything you can tell me about the area?
+    Michael: Sure, kid.
+    Michael: You see that totem pole?
+    Michael: Let that serve as a warning.
+    ->Player: A warning for what?
+        Michael: A warning for anyone... or anything.. dumb enough to mess around with our coin.
+        Player: Noted.
+        <<jump Done>>
+    ->Player: Are those... slimes?
+        Michael: what are you, the feds? Don't worry about it.
+        Michael: Just don't go snooping around The Hub, for your safety.
+        <<jump Done>>
+===
+
+
+title: Uriel
+---
+Uriel: Well, I'll be darned. Look who it is.
+->Player:  Hello! 
+    Uriel: Smooth operator. You don't remember me, do you?
+    ->Player: Sure Do!
+        Uriel: Ahhh, I know you're lying. Go away and come back when you remember.
+        Uriel: Or at least won't lie to me.,..
+        <<jump Done>>
+    ->Player: I'm so sorry, I do not.
+        Uriel: Some honesty. I can respect that.
+        Uriel: Well, a long time ago we met not too far away from this neck of the woods.
+        Uriel: We always said we'd be making coin someday... 
+        Uriel: I'm doing it now. Not that I'm too proud of what I'm doing...
+        Uriel: Maybe it's better if we just stop talking for now.
+        Uriel: You do not want to get involved with us.
+        <<jump Done>>
+->Player: Uriel?
+    Uriel: Damn right!
+    Uriel: Listen. Now's not the greatest time.
+    Uriel: I wouldn't want anyone I know seeing me here...
+    Uriel: And you don't want my cohorts to know that you recognize me.
+    Uriel: For your safety, keep walking.
+    <<jump Done>>
 ===

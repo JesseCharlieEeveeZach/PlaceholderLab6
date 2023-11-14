@@ -10,5 +10,135 @@ Thork: This helmet makes me look more intimidating, don't you think?
 ===
 title: Aria
 ---
-Aria: I  probably shouldn't rotate as much
+Aria: What do you want? I'm a bit busy here.
+->Player: Busy with what?
+    Aria: Well that doesn't entirely concern you, now does it?
+    ->Player: When you put it that way it just makes me more curious.
+        Aria: Well if you must know...
+            <<jump Aria_Explanation>>
+    ->Player: Well, I guess so...
+        <<jump Done>>
+->Player: It doesn't entirely matter to me. 
+    Aria: It doesn't matter to you that I'm clearly busy?
+    Player: Not at all.
+    Aria: How dumb are you? Get lost.
+    <<jump Done>>
 ===
+title: Aria_Explanation
+---
+Aria: Ok fine... Here's the gist.
+Aria: There seems to be a weird coincidence between these slimes and the missing Capsule People.
+Aria: Capsule People go missing, slimes keep getting richer.
+Aria: They even have a king now! And a town! They're slimes, what do they need a town for!
+Aria: And they call it "The Hub"... Odd.
+->Player: I don't follow.
+    Aria: Do you know what trafficking is?
+    ->Player: Yes
+        Aria: It seems these slimes are capable of absorbing Capsule People and spitting them back out later.
+        Aria: From there, they smuggle these people and sell them for profit.
+        Aria: They're cute, but devious little bastards..
+        Aria: Rumour has it, there may even be some portals nearby they use to move without being caught.
+        ->Player: Is there anything I can do?
+            Aria: Well you could catch these slimes in the act... 
+            Aria: but I think it'd be easier to find the portals first.
+            ->Player: I can do that.
+                Aria: If you happen to find them, report back to me.
+                <<jump Done>>
+            ->Player: That seems a bit above my paygrade.
+                Aria: Do what you must, then.
+                <<jump Done>>    
+        ->Player: Ok well... good luck with all that.
+            <<jump Done>>
+    ->Player: No....?
+-> Player: Ok, I think I'm picking up what you're throwing down....
+===
+
+title: KingHambo
+---
+King Hambo: Greetings, youngling!
+->Player: I'm not actually that young..
+    King Hambo: My apologies.
+    King Hambo: Do you happen to have a younger sibling perhaps? I'm asking for a friend....
+    ->Player: Uhhh what
+        King Hambo: Never you mind then.
+        <<jump Done>>
+    -> Player: I... do not. 
+        King Hambo: Then we have nothing more to discuss.
+            <<jump Done>>   
+    ->Player: And If I did? 
+        King Hambo: Then, my new friend, I would have a proposition for thyself. 
+        <<jump KingHambo_Proposition>>
+
+===
+
+
+title: KingHambo_Proposition
+---
+King Hambo: should you be in need of... extra coin... I may be in a position to provide you some.
+King Hambo: In exchange for something... specific.
+->Player: What is this specific thing you require?
+    King Hambo: Good Citizen, may I trust you with serious knowledge?
+    ->Player: Of course, Good King.
+        King Hambo: I require... Youthul members of the Capsule People.
+        King Hambo: If you're able to procur one for me... I'd pay you well.
+        King Hambo: You see, our entire economy relies on this.
+        ->Player: That sounds like... not my problem.
+            King Hambo: Then leave this town at once.
+            <<jump Done>>
+        ->Player: I'll see what I can acquire.
+            King Hambo: very well. Be on your way.
+            <<jump Done>>
+    ->Player: Why would I say no?
+        King Hambo: Interesting response... move along.
+        <<jump Done>>
+->Player: I do not think I am interested, this seems shady. Goodbye.
+    King Hambo: If you change your mind.... you know where to find me...
+    <<jump Done>>
+
+
+===
+
+
+
+title: Jimbo
+---
+Jimbo: I heard there was a capsule person who shares a similar name to mine.
+->Player: This is true.
+    Jimbo: Wow! I wonder what he's like!
+    Jimbo: Maybe you could go find out for me?
+    ->Player: Sure
+        Jimbo: Great! Come back to me with whatever you find out about him.
+        Jimbo: Maybe some common ground will help end the- nevermind. Have fun!
+        <<jump Done>>
+    ->Player: Nope.
+        Jimbo: Well you're no fun!
+        Jimbo: And probably not aware of the situation....
+        Jimbo: Get lost.
+        <<jump Done>>
+->Player: I am unsure as of right now.
+    Jimbo: Well, if you find out, come back to me here, ok?
+    <<jump Done>>
+
+===
+
+
+title: Zenith
+---
+Zenith: No. NO. Go away.
+Zenith:...
+Zenith: I am dead serious. Go talk to Aria.
+->Player: I already have.
+    Zenith: Well, then you should know what to do or know to move on. Goodbye.
+    <<jump Done>>
+->Player: Why?
+    Zenith: She'll explain what you need to know about the situation in this town. 
+    Zenith: I can not be bothered. 
+    <<jump Done>>    
+===
+
+
+
+
+
+
+
