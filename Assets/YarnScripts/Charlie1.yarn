@@ -1,7 +1,8 @@
 ﻿title: Raphael
 tags:
 ---
-Raphael: How do you, good lookin?
+Conversation By Charlie Sirois-Morin
+Raphael: How do you do, good lookin?
 ->Player: I'm sorry, what?
     Raphael: ah, get lost, you're lame.
     <<jump Done>>
@@ -26,6 +27,7 @@ Raphael: How do you, good lookin?
 
 title: Michael
 ---
+Conversation By Charlie Sirois-Morin
 Michael: Lovely campfire we're having.
 ->Player: It is
     Michael: Don't go ruining it now by sticking your nose where it don't belong.
@@ -51,6 +53,7 @@ Michael: Lovely campfire we're having.
 
 title: Uriel
 ---
+Conversation By Charlie Sirois-Morin
 Uriel: Well, I'll be darned. Look who it is.
 ->Player:  Hello! 
     Uriel: Smooth operator. You don't remember me, do you?
