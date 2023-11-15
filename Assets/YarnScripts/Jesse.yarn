@@ -28,7 +28,7 @@ Aria: What do you want? I'm a bit busy here.
 ===
 title: Aria_Explanation
 ---
-Conversation by Jesse McCormack
+
 Aria: Ok fine... Here's the gist.
 Aria: There seems to be a weird coincidence between these slimes and the missing Capsule People.
 Aria: Capsule People go missing, slimes keep getting richer.
@@ -53,7 +53,17 @@ Aria: And they call it "The Hub"... Odd.
         ->Player: Ok well... good luck with all that.
             <<jump Done>>
     ->Player: No....?
+        Aria: Ok, well then it's time for you to get lost.
+        <<jump Done>>
 -> Player: Ok, I think I'm picking up what you're throwing down....
+    Aria: Swell. If you're interested in helping out, I could use you.
+    Aria: All you have to do is catch these Slimes doing something... illegal.
+    Aria: However, it may be easier if you try and find these portals I hear rumours about.
+    ->Player: Portals?
+        Aria: They seem to be using portals to assist their criminal activities.
+        Aria: Come back if you hear anything.
+    ->Player: You got it!
+        Aria: Very well. be on your way.
 ===
 
 title: KingHambo
