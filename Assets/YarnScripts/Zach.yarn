@@ -88,7 +88,7 @@ title: jimQuest
 ---
 Conversation by Zach Dort
 Jim: So the deal involves you doing this thing called "Dime Sliming".
-Jim: If you Happen to succeed, I shall reward you handsomely with my finest bottle of 420 proof alcoholic extra virgin olive oil!
+Jim: If you Happen to succeed, I shall reward you handsomely with my finest bottle of 420 proof alcoholic extra virgin olive oil and... info!
 Jim: So, you in?
 ->Player: What do you mean "Dime Sliming"?
 	<<jump DimeSlime>>
@@ -98,11 +98,29 @@ Jim: So, you in?
 title: DimeSlime
 ---
 Conversation by Zach Dort
-Jim: It involves you flicking a dime into a slimes gelatinous body, If you get 7 dimes or more without it noticing, you win!
-->Player: That sounds...Interesting... I'm in.
-	<<jump Done>>
+Jim: It involves you getting a dime into a slimes gelatinous body, In this case, if you get 7 dimes at least, i'll count that as a pass!
+->Player: That sounds...Interesting... Whats the info?
+	Jim: Well that would take all the fun outta this! I will say though, it's some nice knowledge about another weakness of the slimes...
+	Jim: Follow me to the outskirts why don't ya?
+	<<jump SovlowOutskirts>>
 ->Player: You sound like a lunatic. Count me out.
 	<<jump Done>>
+===
+title: SovlowOutskirts
+---
+Conversation by Zach Dort
+Jim: Ok, so there are two ways i can think of that you could go about accomplishing this task...
+Jim: The "Silent but Deadly" or "Loud and Proud", although I wouldn't recommend the second one.
+Jim: The slimes are kinda dumb so just standing in the bushes makes you invisible. 
+Jim: To throw the dimes, you can press [LEFT CLICK MOUSE] while looking and aiming in the general direction!
+Jim: Does that make sense?
+->Player: Yeah, let's get this thing on the road!
+	<<jump Done>>
+->Player: Uhhhh... could you repeat that for me?
+	<<jump SovlowOutskirts>>
+->Player: I think I'mma back out actually
+	<<jump Done>>
+
 ===
 title: Tim
 ---
