@@ -17,7 +17,7 @@ Aria: What do you want? I'm a bit busy here.
     Aria: Well that doesn't entirely concern you, now does it?
     ->Player: When you put it that way it just makes me more curious.
         Aria: Well if you must know...
-            <<jump Aria_Explanation>>
+            <<jump JesseQuest>>
     ->Player: Well, I guess so...
         <<jump Done>>
 ->Player: It doesn't entirely matter to me. 
@@ -26,45 +26,7 @@ Aria: What do you want? I'm a bit busy here.
     Aria: How dumb are you? Get lost.
     <<jump Done>>
 ===
-title: Aria_Explanation
----
 
-Aria: Ok fine... Here's the gist.
-Aria: There seems to be a weird coincidence between these slimes and the missing Capsule People.
-Aria: Capsule People go missing, slimes keep getting richer.
-Aria: They even have a king now! And a town! They're slimes, what do they need a town for!
-Aria: And they call it "The Hub"... Odd.
-->Player: I don't follow.
-    Aria: Do you know what trafficking is?
-    ->Player: Yes
-        Aria: It seems these slimes are capable of absorbing Capsule People and spitting them back out later.
-        Aria: From there, they smuggle these people and sell them for profit.
-        Aria: They're cute, but devious little bastards..
-        Aria: Rumour has it, there may even be some portals nearby they use to move without being caught.
-        ->Player: Is there anything I can do?
-            Aria: Well you could catch these slimes in the act... 
-            Aria: but I think it'd be easier to find the portals first.
-            ->Player: I can do that.
-                Aria: If you happen to find them, report back to me.
-                <<jump Done>>
-            ->Player: That seems a bit above my paygrade.
-                Aria: Do what you must, then.
-                <<jump Done>>    
-        ->Player: Ok well... good luck with all that.
-            <<jump Done>>
-    ->Player: No....?
-        Aria: Ok, well then it's time for you to get lost.
-        <<jump Done>>
--> Player: Ok, I think I'm picking up what you're throwing down....
-    Aria: Swell. If you're interested in helping out, I could use you.
-    Aria: All you have to do is catch these Slimes doing something... illegal.
-    Aria: However, it may be easier if you try and find these portals I hear rumours about.
-    ->Player: Portals?
-        Aria: They seem to be using portals to assist their criminal activities.
-        Aria: Come back if you hear anything.
-    ->Player: You got it!
-        Aria: Very well. be on your way.
-===
 
 title: KingHambo
 ---

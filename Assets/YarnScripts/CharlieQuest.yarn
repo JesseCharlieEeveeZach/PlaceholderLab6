@@ -1,0 +1,51 @@
+﻿title: CharlieQuest
+tags:
+---
+Charlie Sirois-Morin: Quest designed by Charlie!
+Unknown: Who dares to touch me?
+-> Um, me?
+    Unknown: You’d better have a good reason for touching my sacred being! 
+    Player: I just wanted to see what would happen to be honest
+    Player: What even is your purpose?
+    Unknown: I am the great Slime Totem Pole, the slimes worship my existence.
+    Slime Totem Pole: Is that why you are here? To worship me as well?
+    Player: Umm… I don’t believe so…
+    Slime Totem Pole: Well, if you change your mind, the slimes in the campsite near here will explain the process of worshiping me.
+    Slime Totem Pole: Now leave me at once!
+    <<jump selfDialogue>>    
+->Who is "me?" exactly?
+    Player: Who is “me” exactly?
+    Unknown: How dare you not know who I am mortal!
+    Unknown: I am the wise and all-powerful Slime Totem Pole, my existence worshipped by all slimes.
+    Player: Can’t be all that powerful if I have never even heard about you.
+    Slime Totem Pole: How dare you insult me! You just do not understand the xtent of my power!
+    Slime Totem Pole: Go speak with the slimes in the campsite near here and they shall explain everything to you. Who knows, you may even end up worshipping me…
+    <<jump selfDialogue>>
+->Okay, yeah I ain’t dealing with this… (starts walking away)
+    Unknown: Wait now, hold on! Were you one of my possible disciples?
+    Player: How could I be one of your possible disciples if I don’t even know who you are?
+    Unknown: Ahh I see my disciples have not fully achieved their quest of spreading my name…
+    Unknown: I am the the almighty & divine Slime Totem Pole!
+    Player: Alright if you say so…
+    Slime Totem Pole: I do! Go to the campsite near here and have a chat with the inhabitants, they’ll show you the right path!
+    Player: If going to see them gets me away from you, then gladly
+    <<jump selfDialogue>>
+===
+
+title: selfDialogue
+---
+Player: Alright so those three have been kidnapped… and they are clearly in need of help.
+Player: From the information I gathered, the slimes are clearly the bad guys here…
+Player: I know what I need to do, but the question is how I go about doing that…
+Player: Looking at my options, only two are plausible…
+Player: First, I could try to sneakily free the capsules, which could help especially if I find a way to distract those slimes.
+Player: My second option is to go ahead with their cult like activities and then try to persuade them into freeing those capsules.
+Player: But which one should I go with? Which one guarantees the safety of those capsules the most?
+->sneakily free the capsules
+    Player: Alright, I’m going to need to create a distraction, but with what…
+    Player: Those horses do seem a bit wild… I wonder if I were to untie them, if they would run around and cause chaos within the slimes.
+    Player: Well, I won’t know until I try!
+    I should go to one of the capsules in the cart and talk to them...
+->Pretend to join the slimes’ cult and persuade them to free the capsules
+    Player: Alright well I am going to need to find a way to make those slimes trust me…
+===

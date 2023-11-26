@@ -4,6 +4,15 @@ tags:
 Conversation By Charlie Sirois-Morin
 Neighh!!!! Hronk hronk HOOOO
 Player: What on earth....????
+Player: I'm setting them free, though... *click*
+In The Distance you hear-
+Gabriel (Angrily Shouting): Wha- Who tied the horses?!?!
+Eve (Confused): I did, why?
+Gabriel (Angrily Shouting): You clearly did so badly, they are running away! Now we have to run after them…
+Gabriel (): Alrighty, all of y’all lets go, we got some horses to wrangle thanks to Eve.
+Abishag (): Shouldn’t one of us stay here to watch the capsules?
+Gabriel (): They are locked in there, it’s not like they can get out.
+Abishag (): I guess you’re right… Fine let’s go
 ===
 
 
@@ -34,6 +43,10 @@ Hex: Help Us! Please!
     ->Player: Absolutely not. Goodbye.
         Hex: Whattttt-
         <<jump Done>>
+->Player: The horses are gone. you're free- go!
+    Player (Hurriedly): Quickly, let’s get out of here while they are still trying to catch their horses!
+    Hex, Doom & Jore (Happily): Thank you so much for freeing us!
+    Hex: You are right though; we should get out of here as fast as possible.
 ===
 title: Jore
 ---
@@ -46,7 +59,10 @@ Jore: Are you here to rescue us?
 ->Player: Yeah
     Jore: Oh Thank god! You might have to convince those guys over there...
     <<jump Done>>    
-
+->Player: The horses are gone. you're free- go!
+    Player (Hurriedly): Quickly, let’s get out of here while they are still trying to catch their horses!
+    Hex, Doom & Jore (Happily): Thank you so much for freeing us!
+    Hex: You are right though; we should get out of here as fast as possible.
 ===
 title: Doom
 ---
@@ -63,7 +79,10 @@ Doom: Let me guess.... You want a cut of the coin too...
     Doom: Well I hope it's worth it for you. 
     Doom: But maybe... reconsider? It's not like we aren't people over here...
     <<jump Done>>
-
+->Player: The horses are gone. you're free- go!
+    Player (Hurriedly): Quickly, let’s get out of here while they are still trying to catch their horses!
+    Hex, Doom & Jore (Happily): Thank you so much for freeing us!
+    Hex: You are right though; we should get out of here as fast as possible.
 ===
 
 
