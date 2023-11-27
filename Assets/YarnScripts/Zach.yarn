@@ -104,7 +104,7 @@ Jim: It involves you getting a dime into a slimes gelatinous body, In this case,
 ->Player: That sounds...Interesting... Whats the info?
 	Jim: Well that would take all the fun outta this! I will say though, it's some nice knowledge about another weakness of the slimes...
 	Jim: Follow me to the outskirts why don't ya?
-	<<jump ZachQuests>>
+	<<jump ZachQuest>>
 ->Player: You sound like a lunatic. Count me out.
 	<<jump Done>>
 ===

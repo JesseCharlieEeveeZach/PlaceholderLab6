@@ -1049,9 +1049,17 @@ PrefabInstance:
       value: Gabriel
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2154,9 +2162,17 @@ PrefabInstance:
       value: Leafy
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2487,7 +2503,6 @@ Transform:
   - {fileID: 660441652}
   - {fileID: 848357346}
   - {fileID: 1579315728}
-  - {fileID: 1320369215}
   m_Father: {fileID: 936619336}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &166926625
@@ -4868,9 +4883,17 @@ PrefabInstance:
       value: Jimbo
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5839,9 +5862,17 @@ PrefabInstance:
       value: Jim
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6196,9 +6227,17 @@ PrefabInstance:
       value: EeveeQuest
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6462,9 +6501,17 @@ PrefabInstance:
       value: Hank
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6870,9 +6917,17 @@ PrefabInstance:
       value: Eve
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7363,9 +7418,17 @@ PrefabInstance:
       value: Abishag
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8925,9 +8988,17 @@ PrefabInstance:
       value: Tim
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12055,9 +12126,17 @@ PrefabInstance:
       value: Zenith
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12359,9 +12438,17 @@ PrefabInstance:
       value: Jore
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15027,9 +15114,17 @@ PrefabInstance:
       value: TheoPriesto
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16139,9 +16234,17 @@ PrefabInstance:
       value: Frank
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17446,9 +17549,17 @@ PrefabInstance:
       value: Jonny
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21006,35 +21117,47 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 165684948}
+    m_TransformParent: {fileID: 1388796463}
     m_Modifications:
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.18693
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1869304
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.18693
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -619.06
+      value: -13.298896
       objectReference: {fileID: 0}
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.9
+      value: -11.24615
       objectReference: {fileID: 0}
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -826.49
+      value: 1.5360631
       objectReference: {fileID: 0}
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92677134
       objectReference: {fileID: 0}
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.030202828
       objectReference: {fileID: 0}
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.37391186
       objectReference: {fileID: 0}
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.01930425
       objectReference: {fileID: 0}
     - target: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21073,9 +21196,17 @@ PrefabInstance:
       value: CharlieQuest
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22090,6 +22221,7 @@ Transform:
   - {fileID: 938367572}
   - {fileID: 1724382419}
   - {fileID: 914634870}
+  - {fileID: 1320369215}
   m_Father: {fileID: 165684948}
   m_LocalEulerAnglesHint: {x: -4.038, y: 43.917, z: 0.758}
 --- !u!1001 &1393783185
@@ -23077,9 +23209,17 @@ PrefabInstance:
       value: Horse
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23654,9 +23794,17 @@ PrefabInstance:
       value: Michael
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25347,9 +25495,17 @@ PrefabInstance:
       value: Doom
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26052,9 +26208,17 @@ PrefabInstance:
       value: MysteriousStranger
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26683,9 +26847,17 @@ PrefabInstance:
       value: Hex
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27124,9 +27296,17 @@ PrefabInstance:
       value: Raphael
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27202,9 +27382,17 @@ PrefabInstance:
       value: Aria
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28213,9 +28401,17 @@ PrefabInstance:
       value: Eden
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28566,9 +28762,17 @@ PrefabInstance:
       value: KingHambo
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30601,9 +30805,17 @@ PrefabInstance:
       value: Hermes
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31299,9 +31511,17 @@ PrefabInstance:
       value: Uriel
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32368,9 +32588,17 @@ PrefabInstance:
       value: Horse
       objectReference: {fileID: 0}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32921,9 +33149,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 76682381}
     - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 1046394127}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1941509483}
+    - target: {fileID: 9111123595045854919, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
+      propertyPath: canvasVisibility
+      value: 
+      objectReference: {fileID: 191717626}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
