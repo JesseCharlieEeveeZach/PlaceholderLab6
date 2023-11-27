@@ -1,0 +1,22 @@
+﻿title: EeveeQuest
+tags:
+---
+The Artifact and the Old Lady - Marie Eve Bouchard
+Old Lady: HeeHee Hello Dear You look like adventurer who could help us. I’m here to relay some information to you from the church of Micheal Jac-Jicheal Mackson. If you can be so kind and retrieve a holy artifact from Eevee Village. You can become a hero to our church and get a nice reward if you do so.
+->No not interested
+    Old lady: Please I’m begging you the artifact is an item that could fight against the evil slime cult it will exterminate them!
+    Player: Mmmm no thanks.
+    Player: Bye!
+->Elaborate I don’t have all day swine
+    Old lady: Legend goes that the artifact was touched by our savior Jicheal Mackson who has pure energy, and this pure energy will destroy the evil dark energy inside of the slimes due to them worshiping their evil dark lord 
+->Sure seems fun
+    Old Lady: Amazing deary! Just go into this town and retrieve the artifact, and bring it back to me.
+->HeeHee I’m all in all praise Jicheal Mackson!
+    Old Lady: .. Heehe.. Just bring me the artifact.
+->I have the artifact!
+    Old Lady: Oh heee hee amazing... let me just take it then..
+    ->No!
+        Old Lady: Curse you devil child! Never return here again!
+    ->Here you go!
+        Old lady: Well then, "Hero"... May your reward be the satisfaction of helping an old lady, heehee.
+===

@@ -43,12 +43,14 @@ Jonny:Creepy stuff...
 
 title: MysteriousStranger
 ---
-Conversation by Jesse McCormack
+Conversation/Quest  by Jesse McCormack
+
 Mysterious Stranger: You're almost to EeveeVille... Or what's left of it anyway.
 ->Player: The path seems to stretch to the right and die off. Whats that way?
     Mysterious Stranger: Hehehe... Somewhere that way... 
     Mysterious Stranger: May be an old Capsule... or an Old Slime...
     Mysterious Stranger: Living alone out on the water... Somewhere.
+    Mysterious Stranger: Let me know if you come across anything.. Peculiar…
     <<jump Done>>
 ->Player: What do you mean "Whats left of it"?
     Mysterious Stranger: There seems to be someone new in town... 
@@ -60,5 +62,10 @@ Mysterious Stranger: You're almost to EeveeVille... Or what's left of it anyway.
     ->Player: I don't think I will, actually.
         Mysterious Stranger:Well aren't you a cheeky little bugger...
         Mysterious Stranger:Get out of here, then.
+        Mysterious Stranger: Let me know if you come across anything.. Peculiar…
         <<jump Done>>
+->The portals have been destroyed!
+    <<jump portalDest>>
+-> The portals haven't been destroyed!
+    <<jump portalIntact>>
 ===
