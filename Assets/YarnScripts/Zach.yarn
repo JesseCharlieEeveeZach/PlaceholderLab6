@@ -76,6 +76,7 @@ Frank: Oye, buzz off i'm trying to day drink here! Don't make me get the feds in
 title: Jim
 ---
 Conversation by Zach Dort
+Slimes, Dimes and Other Crimes by Zach Dort
 Jim: Hey, bud, c'mere, how about a deal eh?
 ->Player: What kind of deal?
 	Jim: I was gonna get to that don't cut me off!
@@ -86,7 +87,6 @@ Jim: Hey, bud, c'mere, how about a deal eh?
 ===
 title: jimQuest
 ---
-Conversation by Zach Dort
 Jim: So the deal involves you doing this thing called "Dime Sliming".
 Jim: If you Happen to succeed, I shall reward you handsomely with my finest bottle of 420 proof alcoholic extra virgin olive oil and... info!
 Jim: So, you in?
@@ -94,10 +94,12 @@ Jim: So, you in?
 	<<jump DimeSlime>>
 ->Player: Ew, no. Goodbye.
 	<<jump Done>>
+->Player: Actually... I got 7 dimes in. Here's proof! //will later be coded to be visible after quest start
+	Jim: Ahaha! Good lad. Here's your reward like promised: Olive oil, 420 proof
 ===
 title: DimeSlime
 ---
-Slimes, Dimes and Other Crimes by Zach Dort
+
 Jim: It involves you getting a dime into a slimes gelatinous body, In this case, if you get 7 dimes at least, i'll count that as a pass!
 ->Player: That sounds...Interesting... Whats the info?
 	Jim: Well that would take all the fun outta this! I will say though, it's some nice knowledge about another weakness of the slimes...
