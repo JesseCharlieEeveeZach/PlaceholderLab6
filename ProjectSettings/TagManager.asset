@@ -9,6 +9,7 @@ TagManager:
   - totem
   - ZakkariaVille
   - Eevee
+  - artifact
   layers:
   - Default
   - TransparentFX
