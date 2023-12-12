@@ -1,6 +1,7 @@
 ﻿title: ZachQuest
 tags:
 ---
+<<declare $dimeSlime = false >>
 Jim: Ok, so there are two ways i can think of that you could go about accomplishing this task...
 Jim: The "Silent but Deadly" or "Loud and Proud", although I wouldn't recommend the second one.
 Jim: The slimes are kinda dumb so just standing in the bushes makes you invisible. 
@@ -8,6 +9,7 @@ Jim: To throw the dimes, you can click the left mouse button while looking and a
 Jim: Does that make sense?
 ->Player: Yeah, let's get this thing on the road!
 	Jim: Good luck! Let's see what you get!
+	<<set $dimeSlime = true>>
 	<<jump Done>>
 ->Player: Uhhhh... could you repeat that for me?
 	<<jump ZachQuest>>
