@@ -12,13 +12,17 @@ public class CollectArtifact : MonoBehaviour
     {
         
     }
+    private void Update()
+    {
+        
+    }
 
-    
     private void OnTriggerEnter(Collider collision)
     {
+        variableStorage.TryGetValue("$artifactCollected", out hasArtifact);
         if (collision.CompareTag("artifact") && !hasArtifact)
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
             hasArtifact = true;
             variableStorage.SetValue("$artifactCollected", true);
         }

@@ -27,4 +27,5 @@ Old Lady: HeeHee Hello Dear You look like adventurer who could help us. I’m he
         Old Lady: Curse you devil child! Never return here again!
     ->Here you go!
         Old lady: Well then, "Hero"... May your reward be the satisfaction of helping an old lady, heehee.
+        <<set $artifactCollected = false>>
 ===

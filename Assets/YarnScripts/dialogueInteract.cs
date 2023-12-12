@@ -21,10 +21,10 @@ public class dialogueInteract: MonoBehaviour
     private Quaternion originalRotation;
 
 
-    private bool entered;
+    //private bool entered;
     private void Start()
     {
-        entered = false;
+        //entered = false;
         canvasVisibility.SetActive(false);
         // Ensure the Dialogue Runner is properly set in the Inspector.
         if (dialogueRunner == null)
