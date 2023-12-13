@@ -2023,7 +2023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   variableStorage: {fileID: 1941509484}
-  dimetracks: {fileID: 973375419}
+  manager: {fileID: 779652730}
 --- !u!1001 &99969103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2324,6 +2324,7 @@ Transform:
   m_Children:
   - {fileID: 652809414}
   - {fileID: 178664551}
+  - {fileID: 779652729}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &113008148
@@ -2757,7 +2758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   variableStorage: {fileID: 1941509484}
-  dimetracks: {fileID: 973375419}
+  manager: {fileID: 779652730}
 --- !u!4 &132522812 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
@@ -5933,7 +5934,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 401754260415738651, guid: 03cc0b908e9820f46af2ad9bf117ad63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1082746174}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4212023396148887397, guid: 03cc0b908e9820f46af2ad9bf117ad63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 492621014}
   m_SourcePrefab: {fileID: 100100000, guid: 03cc0b908e9820f46af2ad9bf117ad63, type: 3}
 --- !u!4 &289852335 stripped
 Transform:
@@ -9420,6 +9424,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 335946c4528dd1e4cb26cd4893d8ac70, type: 3}
+--- !u!1 &492621011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4212023396148887397, guid: 03cc0b908e9820f46af2ad9bf117ad63, type: 3}
+  m_PrefabInstance: {fileID: 289852334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &492621014
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492621011}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: cc4034e4bb7d9cd418975561c7bcd316, type: 3}
 --- !u!1 &494104185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5172645973775242108, guid: 12bfbe17178637f47b00db0461f14879, type: 3}
@@ -9742,7 +9773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   variableStorage: {fileID: 1941509484}
-  dimetracks: {fileID: 973375419}
+  manager: {fileID: 779652730}
 --- !u!1001 &524037513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15539,6 +15570,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5900076996615905006, guid: 6ff7b74a291f58443853a2746b69e357, type: 3}
   m_PrefabInstance: {fileID: 779466273}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &779652728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 779652729}
+  - component: {fileID: 779652730}
+  m_Layer: 0
+  m_Name: ZachQuestManager
+  m_TagString: ZachQuestManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &779652729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779652728}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 109741423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &779652730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779652728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed636bd63d263cb4082ccdce2d96630d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dimesSlimed: 0
+  variableStorage: {fileID: 1941509484}
+  questDone: 0
 --- !u!1 &780719399
 GameObject:
   m_ObjectHideFlags: 0
@@ -19645,7 +19723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.2
+      value: 109.1
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19726,9 +19804,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 973375413}
-    - targetCorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 973375419}
     - targetCorrespondingSourceObject: {fileID: 4459864851310106424, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 534587572}
@@ -19786,21 +19861,6 @@ MonoBehaviour:
   shootPoint: {fileID: 534587569}
   dimeSlimeStarted: 0
   shootForce: 10
---- !u!114 &973375419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973375405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed636bd63d263cb4082ccdce2d96630d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dimeCount: 0
-  variableStorage: {fileID: 0}
-  questDone: 0
 --- !u!1 &974338279
 GameObject:
   m_ObjectHideFlags: 0
@@ -25073,7 +25133,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8968726485948241766, guid: a98369428e046a84782e526abefa4fa2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2043329036}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2946155186068445890, guid: a98369428e046a84782e526abefa4fa2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1538056491}
   m_SourcePrefab: {fileID: 100100000, guid: a98369428e046a84782e526abefa4fa2, type: 3}
 --- !u!4 &1193894707 stripped
 Transform:
@@ -32123,6 +32186,33 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 2078eb057e965e34a9d0955471b99bb5, type: 3}
+--- !u!1 &1538056488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2946155186068445890, guid: a98369428e046a84782e526abefa4fa2, type: 3}
+  m_PrefabInstance: {fileID: 1193894706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1538056491
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538056488}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 3ad660daf3a1e02458b9f3eca418861a, type: 3}
 --- !u!1 &1539328501
 GameObject:
   m_ObjectHideFlags: 0
@@ -37688,7 +37778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   variableStorage: {fileID: 1941509484}
-  dimetracks: {fileID: 973375419}
+  manager: {fileID: 779652730}
 --- !u!1001 &1820842179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40136,7 +40226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4998326679312090, guid: 2b519101e10d4a74580d4c86ac9e03e6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.854553
+      value: 18.61
       objectReference: {fileID: 0}
     - target: {fileID: 4998326679312090, guid: 2b519101e10d4a74580d4c86ac9e03e6, type: 3}
       propertyPath: m_LocalPosition.z

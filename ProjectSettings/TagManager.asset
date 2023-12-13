@@ -13,6 +13,7 @@ TagManager:
   - slime
   - dialog
   - coin
+  - ZachQuestManager
   layers:
   - Default
   - TransparentFX
