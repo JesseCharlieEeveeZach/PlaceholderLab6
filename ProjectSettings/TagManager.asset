@@ -10,6 +10,9 @@ TagManager:
   - ZakkariaVille
   - Eevee
   - artifact
+  - slime
+  - dialog
+  - coin
   layers:
   - Default
   - TransparentFX

@@ -87,6 +87,7 @@ Jim: Hey, bud, c'mere, how about a deal eh?
 ===
 title: jimQuest
 ---
+<<declare $slimesDimed = false>>
 Jim: So the deal involves you doing this thing called "Dime Sliming".
 Jim: If you Happen to succeed, I shall reward you handsomely with my finest bottle of 420 proof alcoholic extra virgin olive oil and... info!
 Jim: So, you in?
@@ -94,7 +95,7 @@ Jim: So, you in?
 	<<jump DimeSlime>>
 ->Player: Ew, no. Goodbye.
 	<<jump Done>>
-->Player: Actually... I got 7 dimes in. Here's proof! //will later be coded to be visible after quest start
+->Player: Actually... I got 7 dimes in. Here's proof! <<if $slimesDimed>>
 	Jim: Ahaha! Good lad. Here's your reward like promised: Olive oil, 420 proof
 ===
 title: DimeSlime

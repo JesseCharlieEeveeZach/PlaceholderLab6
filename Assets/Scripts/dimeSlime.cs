@@ -53,5 +53,9 @@ public class dimeSlime : MonoBehaviour
                 dimeCounter.text = "Dimes: " + dimeCount.ToString();
             }
         }
+        else
+        {
+            dimeDisplay.SetActive(false);
+        }
     }
 }
