@@ -1966,6 +1966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 98662371}
   - component: {fileID: 98662372}
+  - component: {fileID: 98662373}
   m_Layer: 0
   m_Name: coinDetect
   m_TagString: slime
@@ -2009,6 +2010,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &98662373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98662370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41d46fb64e1e842a55c4978870b603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableStorage: {fileID: 1941509484}
+  dimetracks: {fileID: 973375419}
 --- !u!1001 &99969103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2741,8 +2756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff41d46fb64e1e842a55c4978870b603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  variableStorage: {fileID: 0}
-  dimetracks: {fileID: 0}
+  variableStorage: {fileID: 1941509484}
+  dimetracks: {fileID: 973375419}
 --- !u!4 &132522812 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1930876042455957562, guid: 00768f2de0fb4894c8a290ffb7943a1c, type: 3}
@@ -9670,6 +9685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 521791856}
   - component: {fileID: 521791857}
+  - component: {fileID: 521791858}
   m_Layer: 0
   m_Name: coinDetect
   m_TagString: slime
@@ -9713,6 +9729,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &521791858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521791855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41d46fb64e1e842a55c4978870b603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableStorage: {fileID: 1941509484}
+  dimetracks: {fileID: 973375419}
 --- !u!1001 &524037513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37601,6 +37631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1820398256}
   - component: {fileID: 1820398257}
+  - component: {fileID: 1820398258}
   m_Layer: 0
   m_Name: coinDetect
   m_TagString: slime
@@ -37644,6 +37675,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1820398258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820398255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41d46fb64e1e842a55c4978870b603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableStorage: {fileID: 1941509484}
+  dimetracks: {fileID: 973375419}
 --- !u!1001 &1820842179
 PrefabInstance:
   m_ObjectHideFlags: 0

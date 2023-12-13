@@ -7,19 +7,19 @@ public class dimeTracker : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public int dimeCount;
+    public int dimesSlimed = 0;
     public VariableStorageBehaviour variableStorage;
     public bool questDone;
 
     void Start()
     {
-        dimeCount = 0;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(dimeCount >= 7)
+        if(dimesSlimed >= 7)
         {
             variableStorage.SetValue("$slimesDimed", true);
             variableStorage.SetValue("$dimeSlime", false);
